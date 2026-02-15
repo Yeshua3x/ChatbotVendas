@@ -1,22 +1,46 @@
 {
-  "produtos": [
-    {
-      "nome": "Camisa Polo",
-      "preco": "R$ 89,90",
-      "descricao": "Camisa polo de algodão, disponível em várias cores.",
-      "imagem": "img/camisa-polo.jpg"
-    },
-    {
-      "nome": "Tênis Esportivo",
-      "preco": "R$ 199,90",
-      "descricao": "Tênis leve e confortável para corrida.",
-      "imagem": "img/tenis-esportivo.jpg"
-    },
-    {
-      "nome": "Bolsa Feminina",
-      "preco": "R$ 149,90",
-      "descricao": "Bolsa de couro sintético, ideal para o dia a dia.",
-      "imagem": "img/bolsa-feminina.jpg"
-    }
-  ]
+  "categorias": {
+    "roupas": [
+      {
+        "nome": "Camisa Polo",
+        "preco": 89.90,
+        "descricao": "Camisa polo de algodão, disponível em várias cores.",
+        "imagem": "img/camisa-polo.jpg"
+      },
+      {
+        "nome": "Jaqueta Jeans",
+        "preco": 159.90,
+        "descricao": "Jaqueta jeans unissex, estilo casual.",
+        "imagem": "img/jaqueta-jeans.jpg"
+      }
+    ],
+    "calçados": [
+      {
+        "nome": "Tênis Esportivo",
+        "preco": 199.90,
+        "descricao": "Tênis leve e confortável para corrida.",
+        "imagem": "img/tenis-esportivo.jpg"
+      },
+      {
+        "nome": "Sandália Feminina",
+        "preco": 129.90,
+        "descricao": "Sandália elegante para ocasiões especiais.",
+        "imagem": "img/sandalia-feminina.jpg"
+      }
+    ],
+    "acessorios": [
+      {
+        "nome": "Bolsa Feminina",
+        "preco": 149.90,
+        "descricao": "Bolsa de couro sintético, ideal para o dia a dia.",
+        "imagem": "img/bolsa-feminina.jpg"
+      },
+      {
+        "nome": "Relógio Masculino",
+        "preco": 249.90,
+        "descricao": "Relógio analógico com pulseira de aço.",
+        "imagem": "img/relogio-masculino.jpg"
+      }
+    ]
+  }
 }
